@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1676086c831cb6468976babdd004f454 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1676086c831cb6468976babdd004f454" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1676086c831cb6468976babdd004f454 = L.map(
+                "map_1676086c831cb6468976babdd004f454",
+                {
+                    center: [-34.6037, -58.3816],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f5262959050f0e0c2d6e126594506110 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_f5262959050f0e0c2d6e126594506110.addTo(map_1676086c831cb6468976babdd004f454);
+        
+    
+            var poly_line_9d8e10a7d3429c88576ac304cd35b878 = L.polyline(
+                [[-34.6304349, -58.3807366], [-34.644841, -58.3808225], [-34.6538083, -58.3788913], [-34.6622804, -58.3765739], [-34.6645748, -58.3760589], [-34.6659161, -58.3758872], [-34.6671868, -58.3760589], [-34.6687398, -58.3748572], [-34.6705752, -58.3734839], [-34.6714576, -58.371939], [-34.6718105, -58.3705657], [-34.6717399, -58.3687203], [-34.6714576, -58.3666175], [-34.6715634, -58.3651155], [-34.6720929, -58.3630984], [-34.6727635, -58.3618539], [-34.6738576, -58.3595794], [-34.6785162, -58.3472627], [-34.6788338, -58.3455461], [-34.6790456, -58.3440011], [-34.6794338, -58.3424562], [-34.6799279, -58.3410399], [-34.680916, -58.3396667], [-34.6929846, -58.3234876], [-34.6945371, -58.3211272], [-34.6947135, -58.3203547], [-34.6953839, -58.3185523], [-34.6979244, -58.3103984], [-34.7006765, -58.3045619], [-34.7046985, -58.2911723], [-34.709673, -58.2799285], [-34.7137652, -58.2704013], [-34.7149293, -58.2681697], [-34.7188449, -58.2651227], [-34.7309079, -58.2560246], [-34.7340115, -58.2522052], [-34.742158, -58.2451671], [-34.7492812, -58.2382577], [-34.7505859, -58.2366698], [-34.7533009, -58.2312196], [-34.7639487, -58.2087319], [-34.7717045, -58.1928962], [-34.7817507, -58.1715673], [-34.7936988, -58.1508821], [-34.8039185, -58.136205], [-34.8243894, -58.1102412], [-34.8365779, -58.0945342], [-34.8398537, -58.0904143], [-34.8427067, -58.0874961], [-34.8464049, -58.0819171], [-34.8541177, -58.0658668], [-34.8694708, -58.0341094], [-34.8798571, -58.0107635], [-34.8814062, -58.0071157], [-34.8820751, -58.0045407], [-34.8824623, -58.0021804], [-34.8822159, -57.9996913], [-34.881723, -57.9967731], [-34.8807021, -57.9947131], [-34.8798571, -57.991752], [-34.8795051, -57.9895633], [-34.8795755, -57.9871171], [-34.88035, -57.9841559], [-34.8818638, -57.9802936], [-34.8913686, -57.9677194], [-34.9042511, -57.9496949]],
+                {"bubblingMouseEvents": true, "color": ["#0088FF"], "dashArray": null, "dashOffset": null, "fill": false, "fillColor": ["#0088FF"], "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_1676086c831cb6468976babdd004f454);
+        
+    
+            poly_line_9d8e10a7d3429c88576ac304cd35b878.bindTooltip(
+                `<div>
+                     Línea Roca: Plaza Constitución - La Plata (vía Quilmes)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
