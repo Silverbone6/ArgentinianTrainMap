@@ -10,5 +10,8 @@ def PlotLine(line):
     weight=5,
     tooltip=line[2]
     ).add_to(m)
+PlotLine(plazac_mdp)
 PlotLine(plazac_laplata)
+PlotLine(plazac_bb)
+PlotLine(bb_neuquen)
 m.save('BuenosAiresTrains.html')
