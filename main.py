@@ -7,7 +7,7 @@ def PlotLine(line):
     folium.PolyLine(
     locations=line[0],
     color=line[1],
-    weight=5,
+    weight=2.5,
     tooltip=line[2]
     ).add_to(m)
 PlotLine(plazac_mdp)
@@ -34,5 +34,6 @@ PlotLine(sanmartin_sanrafael)
 PlotLine(sanmartin_gralalvear)
 PlotLine(mendoza_losandes)
 PlotLine(cba_labanda_tucuman)
+PlotLine(cba_santafe_mitre)
 
 m.save('index.html')
