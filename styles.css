@@ -1,0 +1,21 @@
+body {
+    background-image: url(backgroundimg.png);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1 {
+    text-align: center;
+    background-color: lightblue;
+    height: 40px;
+    margin: auto;
+    padding: 10px;
+}
+iframe {
+    width: 85%;
+    height: 85%;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    border-style:none;
+}

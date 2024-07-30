@@ -46,5 +46,6 @@ PlotLine(retiro_cba_belgrano)
 PlotLine(santafe_sanfrancisco)
 PlotLine(cba_jujuy)
 PlotLine(cba_sanjuan)
+PlotLine(cba_catamarca)
 
-m.save('index.html')
+m.save('map.html')
