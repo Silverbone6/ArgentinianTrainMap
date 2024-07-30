@@ -47,5 +47,7 @@ PlotLine(santafe_sanfrancisco)
 PlotLine(cba_jujuy)
 PlotLine(cba_sanjuan)
 PlotLine(cba_catamarca)
+PlotLine(rosoeste_santafe)
+PlotLine(santafe_resistencia)
 
 m.save('map.html')

@@ -17,6 +17,5 @@ for i in inputcoordinates:
         lon = str()
         lat = str()
 f = open("outputcoordinates.py", "w")
-finalcoord.reverse()
 f.write(str(finalcoord))
 f.close()
