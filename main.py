@@ -1,4 +1,5 @@
 import folium
+from folium import features
 from lines import *
 m = folium.Map(
     location=(-34.6037, -58.3816), zoom_start=11,
@@ -54,5 +55,7 @@ PlotLine(jujuy_villazon)
 PlotLine(perico_formosa)
 PlotLine(santafe_tucuman)
 PlotLine(resistencia_metan)
+
+features.LatLngPopup().add_to(m)
 
 m.save('map.html')
