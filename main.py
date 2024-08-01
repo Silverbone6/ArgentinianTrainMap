@@ -1,9 +1,16 @@
 import folium
+import pandas as pd
 from folium import features
 from lines import *
+
 m = folium.Map(
     location=(-34.6037, -58.3816), zoom_start=11,
     tiles='cartodb positron')
+
+stations = pd.read_csv('stations.csv', sep=',', encoding='latin-1')
+
+features.LatLngPopup().add_to(m)
+
 def PlotLine(line):
     folium.PolyLine(
     locations=line[0],
@@ -11,6 +18,7 @@ def PlotLine(line):
     weight=2.5,
     tooltip=line[2]
     ).add_to(m)
+
 PlotLine(plazac_mdp)
 PlotLine(bb_santarosa)
 PlotLine(bb_villamercedes)
@@ -56,6 +64,11 @@ PlotLine(perico_formosa)
 PlotLine(santafe_tucuman)
 PlotLine(resistencia_metan)
 
-features.LatLngPopup().add_to(m)
+for index, row in stations.iterrows():
+    pushpin = folium.features.CustomIcon('http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png', icon_size=(10,10))
+    folium.Marker([row['lat'], row['lon']], 
+        icon=pushpin,
+        popup=row['station']
+    ).add_to(m)
 
 m.save('map.html')
