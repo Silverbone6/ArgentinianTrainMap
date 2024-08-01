@@ -7,7 +7,7 @@ m = folium.Map(
     location=(-34.6037, -58.3816), zoom_start=11,
     tiles='cartodb positron')
 
-stations = pd.read_csv('stations.csv', sep=',', encoding='latin-1')
+main_stations = pd.read_csv('main_stations.csv', sep=',', encoding='latin-1')
 
 features.LatLngPopup().add_to(m)
 
@@ -63,9 +63,16 @@ PlotLine(jujuy_villazon)
 PlotLine(perico_formosa)
 PlotLine(santafe_tucuman)
 PlotLine(resistencia_metan)
+PlotLine(lacroze_posadas)
+PlotLine(parana_concepcion)
+PlotLine(corrientes_montecaseros)
+PlotLine(pichanal_oran)
+PlotLine(pichanal_yacuiba)
+PlotLine(saenzpena_anatuya)
+PlotLine(saenzpena_tostado)
 
-for index, row in stations.iterrows():
-    pushpin = folium.features.CustomIcon('http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png', icon_size=(10,10))
+for index, row in main_stations.iterrows():
+    pushpin = folium.features.CustomIcon('stationico.png', icon_size=(8,8))
     folium.Marker([row['lat'], row['lon']], 
         icon=pushpin,
         popup=row['station']
