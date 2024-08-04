@@ -7,7 +7,7 @@ m = folium.Map(
     location=(-34.6037, -58.3816), zoom_start=11,
     tiles='cartodb positron')
 
-main_stations = pd.read_csv('main_stations.csv', sep=',', encoding='latin-1')
+stations = pd.read_csv('main_stations.csv', sep=',', encoding='latin-1')
 
 features.LatLngPopup().add_to(m)
 
@@ -71,8 +71,28 @@ PlotLine(pichanal_yacuiba)
 PlotLine(saenzpena_anatuya)
 PlotLine(saenzpena_tostado)
 
-for index, row in main_stations.iterrows():
-    pushpin = folium.features.CustomIcon('stationico.png', icon_size=(8,8))
+for index, row in stations.iterrows():
+    if row['category']=='first':
+        size=(10,10)
+    if row['category']=='second':
+        size=(8,8)
+    if row['ffcc']=='gu':
+        ffcc='urquizastation.png'
+    if row['ffcc']=='roca':
+        ffcc='rocastation.png'
+    if row['ffcc']=='sm':
+        ffcc='sanmartinstation.png'
+    if row['ffcc']=='b':
+        ffcc='belgranostation.png'
+    if row['ffcc']=='mitre':
+        ffcc='mitrestation.png'
+    if row['ffcc']=='pat':
+        ffcc='patagoniastation.png'
+    if row['ffcc']=='dfs':
+        ffcc='sarmientostation.png'
+    if row['ffcc']=='andino':
+        ffcc='andinostation.png'
+    pushpin = folium.features.CustomIcon(ffcc, icon_size=size)
     folium.Marker([row['lat'], row['lon']], 
         icon=pushpin,
         popup=row['station']
