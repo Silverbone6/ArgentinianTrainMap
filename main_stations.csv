@@ -42,91 +42,92 @@ Tandil,-37.3106,-59.1365,roca,first
 Formosa,-26.1834,-58.163,b,first
 La Rioja,-29.4136,-66.847,b,first
 Comodoro Rivadavia,-45.8627,-67.4783,pat,first
-Villa María,-32.4112,-63.2461,,
-Trelew (Nueva),-43.2477,-65.2911,,
-Luján,-34.578,-59.1051,,
-Río Gallegos,-51.6305,-69.2273,,
-Reconquista,-29.1553,-59.6452,,
-Rafaela M,-31.2491,-61.4763,,
-Rafaela B,-31.261,-61.4826,,
-Pergamino,-33.8894,-60.5684,,
-Roque Sáenz Peña,-26.7946,-60.4412,,
-Olavarría,-,-,,
-San Martín,-,-,,
-Junín,-,-,,
-Campana,-,-,,
-Quequén,-,-,,
-Necochea,-,-,,
-Gualeguaychú,-,-,,
-General Roca,-,-,,
-Puerto Madryn,-,-,,
-Venado Tuerto,-,-,,
-Orán,-,-,,
-San Francisco,-,-,,
-Viedma,-,-,,
-Carmen de Patagones,-,-,,
-Concepción del Uruguay,-,-,,
-Goya,-,-,,
-Villa Carlos Paz,-,-,,
-Río Grande,-,-,,
-Oberá,-,-,,
-Tartagal,-,-,,
-San Pedro de Jujuy,-,-,,
-Punta Alta,-,-,,
-Chivilcoy,-,-,,
-Eldorado,-,-,,
-Ushuaia,-,-,,
-General Pico,-,-,,
-Mercedes,-,-,,
-Azul,-,-,,
-Clorinda,-,-,,
-Caleta Olivia,-,-,,
-Concepción,-,-,,
-Cutral Có,-,-,,
-Alta Gracia,-,-,,
-Villa Constitución,-,-,,
-Villa Dolores,-,-,,
-Jesús María,-,-,,
-San Pedro,-,-,,
-Tres Arroyos,-,-,,
-Libertador General San Martín,-,-,,
-Río Tercero,-,-,,
-Perico,-,-,,
-Paso de los Libres,-,-,,
-Esperanza,-,-,,
-Villa Angela,-,-,,
-Puerto Iguazú,-,-,,
-Gualeguay,-,-,,
-Tafí Viejo,-,-,,
-Chacabuco,-,-,,
-Balcarce,-,-,,
-Cosquín,-,-,,
-Nueve de Julio,-,-,,
-Bialet Massé,-,-,,
-Valle Hermoso,-,-,,
-La Falda,-,-,,
-Casilda,-,-,,
-Curuzú Cuatiá,-,-,,
-Bell Ville,-,-,,
-Río Segundo,-,-,,
-Pilar,-,-,,
-Chilecito,-,-,,
-Chascomús,-,-,,
-Mercedes,-,-,,
-Trenque Lauquen,-,-,,
-Bragado,-,-,,
-Centenario,-,-,,
-Aguilares,-,-,,
-Villaguay,-,-,,
-Chajarí,-,-,,
-Esquel,-,-,,
-Termas de Río Hondo,-,-,,
-Zapala,-,-,,
-Rawson,-,-,,
-Pehuajó,-,-,,
-General Güemes,-,-,,
-Rivadavia,-,-,,
-Cruz del Eje,-,-,,
-Gobernador Virasoro,-,-,,
-Victoria,-,-,,
-Villa Regina,-,-,,
+Villa María,-32.4112,-63.2461,mitre,second
+Trelew (Nueva),-43.2477,-65.2911,pat,second
+Luján,-34.578,-59.1051,dfs,second
+Río Gallegos,-51.6305,-69.2273,pat,second
+Reconquista,-29.1553,-59.6452,b,second
+Rafaela M,-31.2491,-61.4763,mitre,second
+Rafaela B,-31.261,-61.4826,b,second
+Pergamino,-33.8894,-60.5684,mitre,second
+Roque Sáenz Peña,-26.7946,-60.4412,b,second
+Olavarría,-36.8963,-60.3139,roca,second
+San Martín,-33.0922,-68.4781,sm,second
+Junín,-34.584,-60.9498,sm,second
+Quequén,-38.5336,-58.7106,roca,second
+Necochea,-38.5474,-58.7335,roca,second
+Gualeguaychú,-33.0184,-58.5195,gu,second
+General Roca,-39.0299,-67.574,pat,second
+Puerto Madryn (Nueva),-42.7822,-65.0659,pat,second
+Venado Tuerto,-33.756,-61.9604,mitre,second
+Orán,-23.134,-64.3309,b,second
+San Francisco,-31.4404,-62.0771,b,second
+Viedma,-40.8381,-62.9813,pat,second
+Carmen de Patagones,-40.7914,-62.9794,roca,second
+Concepción del Uruguay,-32.4793,-58.241,gu,second
+Goya,-29.1571,-59.2645,gu,second
+Villa Carlos Paz,-31.4217,-64.4945,mitre,second
+Río Grande,-53.786,-67.7022,pat,second
+Oberá,-27.4912,-55.1005,gu,second
+Tartagal,-22.5164,-63.8081,b,second
+San Pedro de Jujuy,-24.231,-64.8619,b,second
+Punta Alta,-38.882,-62.0837,roca,second
+Chivilcoy,-34.9173,-59.9961,dfs,second
+Eldorado,-26.4022,-54.6344,gu,second
+Ushuaia,-54.8022,-68.2997,pat,second
+General Pico,-35.6612,-63.7506,dfs,second
+Mercedes P,-34.6567,-59.4318,sm,second
+Mercedes,-34.6577,-59.4325,dfs,second
+Azul,-36.786,-59.8528,roca,second
+Clorinda,-25.2919,-57.7257,mitre,second
+Caleta Olivia,-46.4626,-67.5308,pat,second
+Concepción,-32.4793,-58.241,gu,second
+Cutral Có,-38.9298,-69.2028,pat,second
+Alta Gracia,-31.6565,-64.4262,mitre,second
+Emp. Villa Constitución,-33.2605,-60.3833,mitre,second
+Villa Constitución,-33.2247,-60.3405,mitre,second
+Villa Dolores,-36.3031,-57.6876,sm,second
+Jesús María,-30.9797,-64.0949,b,second
+San Pedro,-33.6943,-59.6828,mitre,second
+Tres Arroyos,-38.3874,-60.2756,roca,second
+San Martín (Jujuy),-23.8211,-64.7939,b,second
+Río Tercero,-32.1716,-64.1105,mitre,second
+Perico,-24.3769,-65.1139,b,second
+Paso de los Libres,-29.715,-57.1006,gu,second
+Esperanza,-31.4569,-60.9328,b,second
+Villa Angela,-27.5799,-60.7118,b,second
+Puerto Iguazú,-25.614,-54.5592,gu,second
+Gualeguay,-33.1455,-59.2082,gu,second
+Tafí Viejo,-26.7367,-65.255,b,second
+Chacabuco,-34.6298,-60.4701,sm,second
+Balcarce,-37.8347,-58.2644,roca,second
+Cosquín,-31.2437,-64.4678,b,second
+Nueve de Julio,-35.4542,-60.8767,dfs,second
+Bialet Massé,-31.3077,-64.4632,b,second
+Valle Hermoso,-31.1168,-64.4857,b,second
+La Falda,-31.0939,-64.488,b,second
+Casilda,-33.0426,-61.179,mitre,second
+Curuzú Cuatiá,-29.7902,-58.0454,gu,second
+Bell Ville,-32.6119,-62.694,mitre,second
+Río Segundo,-31.6508,-63.913,mitre,second
+Pilar,-31.6825,-63.8853,mitre,second
+Chilecito,-29.1829,-67.4911,b,second
+Chascomús,-35.5789,-57.9824,roca,second
+Mercedes (Corrientes),-29.1882,-58.0825,gu,second
+Trenque Lauquen,-35.966,-62.7344,dfs,second
+Bragado,-35.1196,-60.4783,dfs,second
+Cinco Saltos,-38.8249,-68.0664,pat,second
+Aguilares,-27.4265,-65.6181,b,second
+Villaguay,-31.8908,-58.994,gu,second
+Chajarí,-30.7624,-57.9802,gu,second
+Esquel,-42.9038,-71.3181,pat,second
+Termas de Río Hondo,-27.4944,-64.8662,b,second
+Zapala,-38.9063,-70.0624,pat,second
+Rawson,-43.2963,-65.1047,pat,second
+Pehuajó,-35.8157,-61.8938,dfs,second
+General Güemes,-24.6728,-65.0443,b,second
+Rivadavia,-33.1959,-68.4722,sm,second
+Cruz del Eje,-30.7203,-64.8051,b,second
+Gobernador Virasoro,-28.053,-56.0263,gu,second
+Victoria,-32.6305,-60.1642,gu,second
+Villa Regina,-39.0938,-67.0808,pat,second
