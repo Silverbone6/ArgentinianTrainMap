@@ -75,7 +75,7 @@ for index, row in stations.iterrows():
     if row['category']=='first':
         size=(10,10)
     if row['category']=='second':
-        size=(8,8)
+        size=(6,6)
     if row['ffcc']=='gu':
         ffcc='urquizastation.png'
     if row['ffcc']=='roca':
