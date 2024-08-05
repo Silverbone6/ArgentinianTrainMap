@@ -70,12 +70,19 @@ PlotLine(pichanal_oran)
 PlotLine(pichanal_yacuiba)
 PlotLine(saenzpena_anatuya)
 PlotLine(saenzpena_tostado)
+PlotLine(chardai_santasylvina)
+PlotLine(vera_lastoscas)
+PlotLine(tucuman_alberdi)
+PlotLine(tucuman_riohondo)
+PlotLine(corrientes_goya)
 
 for index, row in stations.iterrows():
     if row['category']=='first':
-        size=(10,10)
+        size=(9,9)
     if row['category']=='second':
-        size=(6,6)
+        size=(7,7)
+    if row['category']=='third':
+        size=(5,5)
     if row['ffcc']=='gu':
         ffcc='urquizastation.png'
     if row['ffcc']=='roca':
