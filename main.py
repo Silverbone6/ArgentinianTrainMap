@@ -75,14 +75,28 @@ PlotLine(vera_lastoscas)
 PlotLine(tucuman_alberdi)
 PlotLine(tucuman_riohondo)
 PlotLine(corrientes_goya)
+PlotLine(nogoya_victoria)
+PlotLine(gualeguay_ecarbo)
+PlotLine(gualeguaychu_parera)
+PlotLine(cba_cruzdeleje)
+PlotLine(cba_altagracia)
+PlotLine(patquia_chilecito)
+PlotLine(palmira_rivadavia)
+PlotLine(realico_alvear)
+PlotLine(bragado_castex)
+PlotLine(bragado_realico)
+PlotLine(plazac_carhue)
+PlotLine(carhue_rivera)
+PlotLine(miramar_otamendi)
+PlotLine(guido_pinamar)
 
 for index, row in stations.iterrows():
     if row['category']=='first':
-        size=(9,9)
+        size=(10,10)
     if row['category']=='second':
-        size=(7,7)
+        size=(8,8)
     if row['category']=='third':
-        size=(5,5)
+        size=(6,6)
     if row['ffcc']=='gu':
         ffcc='urquizastation.png'
     if row['ffcc']=='roca':
@@ -106,3 +120,4 @@ for index, row in stations.iterrows():
     ).add_to(m)
 
 m.save('map.html')
+exec
