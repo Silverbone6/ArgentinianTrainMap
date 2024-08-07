@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>posadas - encarnacion.kml</name>
+	<StyleMap id="msn_placemark_circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_placemark_circle_highlight">
+		<IconStyle>
+			<scale>0.945451</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>b2d3d3d3</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff2fafff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_placemark_circle">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>b2d3d3d3</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff2fafff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffffff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Garupá - Encarnación</name>
+		<open>1</open>
+		<styleUrl>#msn_placemark_circle</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-55.88371345588033,-27.38021212241998,0 -55.88353975568754,-27.3796997130155,0 -55.88336304795089,-27.37919534963978,0 -55.88324463919304,-27.37892241032347,0 -55.88308449297606,-27.37863083775702,0 -55.88289002352041,-27.37833528158508,0 -55.88272791555332,-27.37810782822827,0 -55.88252133058449,-27.37787146471969,0 -55.88227070501583,-27.37761920692906,0 -55.88204674711614,-27.37741472064133,0 -55.88177282634969,-27.37720942797317,0 -55.88147564286304,-27.37701266217328,0 -55.88120082522341,-27.37685598354308,0 -55.88100509105414,-27.37676181645748,0 -55.88069626555446,-27.37664125400141,0 -55.87986106484515,-27.37630125157401,0 -55.87868887458945,-27.37584920627643,0 -55.87678756393706,-27.3750790076747,0 -55.87484805156151,-27.37430634925108,0 -55.87175315351335,-27.373077082947,0 -55.86644714211587,-27.37098552627175,0 -55.8643028064198,-27.37013816013308,0 -55.86089118582338,-27.36879887949523,0 -55.85839519759212,-27.36783985159006,0 -55.85670334696574,-27.36719179445977,0 -55.85553375759619,-27.36675175905455,0 -55.85441194983532,-27.36632158708168,0 -55.85409263606716,-27.36618793168581,0 -55.85378704883259,-27.36603260832188,0 -55.8535641984558,-27.36589249292629,0 -55.85317595120139,-27.36564306090468,0 -55.85286470325109,-27.36538491779464,0 -55.85255228826316,-27.36508882248636,0 -55.85221946848322,-27.3647274875652,0 -55.85193371462404,-27.36440649299694,0 -55.85163971472274,-27.3640381892068,0 -55.85048743198318,-27.36276855670166,0 -55.84925169050869,-27.36146141140174,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

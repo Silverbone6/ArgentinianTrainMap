@@ -89,6 +89,12 @@ PlotLine(plazac_carhue)
 PlotLine(carhue_rivera)
 PlotLine(miramar_otamendi)
 PlotLine(guido_pinamar)
+PlotLine(plazac_olavarria)
+PlotLine(bb_palta)
+PlotLine(jacobacci_esquel)
+PlotLine(rosario_pergamino)
+PlotLine(rosnor_melincue)
+PlotLine(villac_rufino)
 
 for index, row in stations.iterrows():
     if row['category']=='first':
