@@ -18,6 +18,14 @@ def PlotLine(line):
     weight=2.5,
     tooltip=line[2]
     ).add_to(m)
+def PlotDashedLine(line):
+    folium.PolyLine(
+    locations=line[0],
+    color=line[1],
+    weight=2.5,
+    tooltip=line[2],
+    dash_array=10
+    ).add_to(m)
 
 PlotLine(plazac_mdp)
 PlotLine(bb_santarosa)
@@ -95,6 +103,9 @@ PlotLine(jacobacci_esquel)
 PlotLine(rosario_pergamino)
 PlotLine(rosnor_melincue)
 PlotLine(villac_rufino)
+PlotLine(posadas_encarnacion)
+PlotLine(cipolletti_cincosaltos)
+PlotDashedLine(posadas_iguazu)
 
 for index, row in stations.iterrows():
     if row['category']=='first':
