@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>linea_d.kml</name>
+	<StyleMap id="line-009D57-5650-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-009D57-5650-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-009D57-5650-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-009D57-5650-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff579d00</color>
+			<width>8.475</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-009D57-5650-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff579d00</color>
+			<width>5.65</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Línea D</name>
+		<visibility>0</visibility>
+		<styleUrl>#line-009D57-5650-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-58.4663573,-34.5512115,0 -58.4646192,-34.5534029,0 -58.46216919999999,-34.5559805,0 -58.45554379999999,-34.5633206,0 -58.4542134,-34.5649286,0 -58.4521106,-34.5662009,0 -58.4384635,-34.5733568,0 -58.4340003,-34.575583,0 -58.4297088,-34.5771201,0 -58.42636139999999,-34.5781271,0 -58.4254816,-34.5785688,0 -58.420482,-34.5820845,0 -58.4101608,-34.5889388,0 -58.4081438,-34.5906699,0 -58.4058049,-34.592825,0 -58.4044531,-34.5937258,0 -58.4023502,-34.5944324,0 -58.40166360000001,-34.5946267,0 -58.4011057,-34.5952272,0 -58.40086960000001,-34.5957218,0 -58.4007624,-34.596499,0 -58.4007194,-34.5979121,0 -58.4005907,-34.5986716,0 -58.4000757,-34.5991131,0 -58.3990243,-34.599537,0 -58.3976295,-34.5997313,0 -58.392351,-34.5996077,0 -58.38592440000001,-34.5992633,0 -58.38546840000001,-34.5993119,0 -58.3850553,-34.5994664,0 -58.3847656,-34.5997048,0 -58.3845833,-34.6000669,0 -58.384476,-34.6009765,0 -58.3844438,-34.6014755,0 -58.38424,-34.6019921,0 -58.38402539999999,-34.6023277,0 -58.3837035,-34.6026103,0 -58.3829739,-34.6030165,0 -58.3802703,-34.6045178,0 -58.3736184,-34.6078734,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

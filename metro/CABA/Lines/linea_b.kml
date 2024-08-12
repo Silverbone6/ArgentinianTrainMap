@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>linea_b.kml</name>
+	<StyleMap id="line-DB4436-5107-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-DB4436-5107-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-DB4436-5107-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-DB4436-5107-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff3644db</color>
+			<width>7.6605</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-DB4436-5107-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff3644db</color>
+			<width>5.107</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Línea B</name>
+		<visibility>0</visibility>
+		<styleUrl>#line-DB4436-5107-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-58.3700571,-34.6029388,0 -58.3816013,-34.6037512,0 -58.393918,-34.6044753,0 -58.403574,-34.6047579,0 -58.41016150000001,-34.6039808,0 -58.4132943,-34.6041751,0 -58.4162125,-34.6037335,0 -58.4181008,-34.6034333,0 -58.42578270000001,-34.6026915,0 -58.4319625,-34.602091,0 -58.4343657,-34.6013315,0 -58.438786,-34.5998832,0 -58.44629619999999,-34.5929062,0 -58.4504375,-34.5889316,0 -58.4519825,-34.5882957,0 -58.45552299999999,-34.5871651,0 -58.45972870000001,-34.5856989,0 -58.4617886,-34.5852926,0 -58.46393440000001,-34.5848509,0 -58.4729681,-34.5819714,0 -58.4739337,-34.581618,0 -58.4745774,-34.580982,0 -58.47559,-34.57979,0 -58.478987,-34.579154,0 -58.48326779999999,-34.5762296,0 -58.4863791,-34.5743038,0 -58.4890023,-34.5723377,0 -58.4914055,-34.5703765,0 -58.49302640000001,-34.5682966,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

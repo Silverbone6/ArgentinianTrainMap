@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>linea_c.kml</name>
+	<StyleMap id="line-3F5BA9-4294-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-3F5BA9-4294-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-3F5BA9-4294-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-3F5BA9-4294-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffa95b3f</color>
+			<width>6.441</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-3F5BA9-4294-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffa95b3f</color>
+			<width>4.294</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Línea C</name>
+		<visibility>0</visibility>
+		<styleUrl>#line-3F5BA9-4294-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-58.3748616,-34.5922024,0 -58.3771201,-34.5948653,0 -58.37757070000001,-34.5954217,0 -58.37814999999999,-34.5959163,0 -58.3783861,-34.5962784,0 -58.3783968,-34.5966051,0 -58.3780964,-34.6023544,0 -58.3780642,-34.6035465,0 -58.37823589999999,-34.6038733,0 -58.3784719,-34.6041117,0 -58.37874009999999,-34.6044031,0 -58.3791264,-34.6047034,0 -58.37943750000001,-34.6048182,0 -58.3798773,-34.6049595,0 -58.3802314,-34.6051625,0 -58.3805103,-34.6054363,0 -58.3807571,-34.6057189,0 -58.380843,-34.6060457,0 -58.3806499,-34.6093306,0 -58.38036020000001,-34.6151672,0 -58.3801134,-34.6207827,0 -58.3798881,-34.6227339,0 -58.38003830000001,-34.6237139,0 -58.3802958,-34.6242966,0 -58.38071419999999,-34.6247469,0 -58.3809932,-34.6251088,0 -58.3812829,-34.6255503,0 -58.3814331,-34.6260005,0 -58.3814331,-34.6265391,0 -58.38141159999999,-34.6276426,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
