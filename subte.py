@@ -24,7 +24,7 @@ def PlotDashedLine(line):
     color=line[1],
     weight=2.5,
     tooltip=line[2],
-    dash_array=10
+    dash_array=5
     ).add_to(m)
 
 PlotLine(linea_a)
@@ -35,5 +35,6 @@ PlotLine(linea_e)
 PlotLine(linea_h)
 PlotLine(linea_p)
 PlotLine(linea_p_centrocivico)
+PlotDashedLine(ext_linea_b)
 
 m.save('subte.html')
