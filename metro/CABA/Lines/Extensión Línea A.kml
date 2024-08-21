@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Extensión Línea A.kml</name>
+	<StyleMap id="msn_ylw-pushpin14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffc39f</color>
+			<width>5.1</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffc39f</color>
+			<width>5.1</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Extensión Línea A</name>
+		<styleUrl>#msn_ylw-pushpin14</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-58.48231155972735,-34.63394011156134,0 -58.49108778020456,-34.63605347280181,0 -58.49360188074215,-34.63663234889052,0 -58.49504838830033,-34.63683336596867,0 -58.50114150695875,-34.63767590144641,0 -58.51008835520854,-34.63910208645258,0 -58.51104718797807,-34.63926056497042,0 -58.51141065094518,-34.63930757948935,0 -58.51189316952782,-34.63932709949913,0 -58.51320757666903,-34.63930112877548,0 -58.51655377946774,-34.63916301117383,0 -58.52200647472339,-34.63887809701779,0 -58.52240432035018,-34.63886057084743,0 -58.52259336442629,-34.63886584465123,0 -58.52373465494961,-34.6389267918647,0 -58.52777974385046,-34.63924414514739,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
