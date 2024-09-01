@@ -41,5 +41,6 @@ PlotDashedLine(ext_linea_d)
 PlotDashedLine(ext_linea_h_norte)
 PlotDashedLine(ext_linea_h_sur)
 PlotDashedLine(linea_f)
+PlotDashedLine(linea_t4)
 
 m.save('subte.html')
