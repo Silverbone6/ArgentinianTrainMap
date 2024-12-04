@@ -42,5 +42,6 @@ PlotDashedLine(ext_linea_h_norte)
 PlotDashedLine(ext_linea_h_sur)
 PlotDashedLine(linea_f)
 PlotDashedLine(linea_t4)
+PlotDashedLine(circular_belgrano)
 
 m.save('subte.html')
